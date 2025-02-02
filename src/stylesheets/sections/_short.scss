@@ -1,0 +1,19 @@
+@use '../custom'as *;
+
+.short{
+    h4{
+        background-color: rgba(#e3e3e3, 0.75);
+        padding: 2rem;
+        border-radius: 5px;
+    }
+    .banner{
+        background-image: url('../images/banner_cropped.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .btn{
+        width: 10rem;
+        height: 5rem;
+    }
+}

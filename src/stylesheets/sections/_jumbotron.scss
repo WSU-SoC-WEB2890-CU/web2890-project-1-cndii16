@@ -1,0 +1,14 @@
+@use '../custom'as *;
+
+.jumbotron{
+    background-image: url('../images/jumbottron-edited.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+form{
+    margin-top: 50px;
+    background-color: rgba(201, 206, 194, 0.75);
+    padding: 10px;
+    border-radius: 5px;
+}

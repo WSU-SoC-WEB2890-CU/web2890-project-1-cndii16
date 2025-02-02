@@ -1,0 +1,17 @@
+@use '../custom'as *;
+.faq {
+    background-color: $gray-tone-light;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    .nav-pills {
+        .nav-link.active{
+        background-color: $primary !important;
+        color: $gray-tone-light;
+        }
+    }
+    .nav-pills .nav-link {
+        color: $primary;
+       
+    }
+
+}

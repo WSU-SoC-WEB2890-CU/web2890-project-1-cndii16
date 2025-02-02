@@ -1,0 +1,18 @@
+@use '../custom'as *;
+
+.display-5{
+    color: $tertiary;
+}
+.text{
+    color: $tertiary;
+}
+.display-2{
+    font-weight: 5rem;
+}
+.heading-line{
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary;
+  }
