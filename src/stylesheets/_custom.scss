@@ -1,0 +1,14 @@
+//overrides
+$primary: #20323F;
+$secondary: #5D6354;
+$tertiary: #A3B0B5;
+$fourth: #C9CEC2;
+$gray-tone-dark: #878297;
+$gray-tone-light: #e3e3e3;
+
+//general
+body{
+    background-color: #DFDFDF;
+}
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.scss";

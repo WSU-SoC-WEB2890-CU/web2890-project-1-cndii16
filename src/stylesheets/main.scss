@@ -1,3 +1,22 @@
 /* Your styles go here */
+@use 'custom';
+
+//components
+@use 'components/typography';
+
+//sections
+@use 'sections/navbar';
+@use 'sections/jumbotron';
+
+@use 'sections/process';
+@use 'sections/advantages';
+@use 'sections/testimonials';
+@use 'sections/short';
+@use 'sections/faq';
+@use 'sections/purchases';
+
+@use 'sections/footer';
+
+
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";

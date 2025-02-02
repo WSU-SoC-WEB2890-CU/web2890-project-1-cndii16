@@ -1,0 +1,46 @@
+@use '../custom' as *;
+
+.advantages {
+    padding: 5rem;
+    border-radius: 10px;
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        background: $white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+        .step-icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50px;
+          height: 50px;
+          min-width: 50px;
+          min-height: 50px;
+          border-radius: 50%;
+          background: $secondary;
+          color: $gray-tone-light;
+          font-size: 1.25rem;
+          font-weight: bold;
+          flex-shrink: 0;
+          @media (max-width: 576px) {
+            display: none;
+          }
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+  
